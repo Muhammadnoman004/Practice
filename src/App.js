@@ -8,7 +8,7 @@ import UseCallback from './Hooks/UseCallback/UseCallback';
 function App() {
   return (
     <div className="App">
-      <UseMemo />
+      <UseCallback />
     </div>
   );
 }
