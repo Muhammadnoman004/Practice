@@ -2,12 +2,12 @@ import './App.css';
 import UseReference from './Hooks/UseRef/UseReference';
 import UseLayoutEffect from './Hooks/UseLayoutEffect/UseLayoutEffect';
 import ImperativeParent from './Hooks/UseImperativeHandle/ImperativeParent';
-import UseMamo from './Hooks/UseMamo/UseMamo';
+import UseMemo from './Hooks/UseMemo/UseMemo';
 
 function App() {
   return (
     <div className="App">
-      <UseMamo />
+      <UseMemo />
     </div>
   );
 }
