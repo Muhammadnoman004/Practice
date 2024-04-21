@@ -24,6 +24,7 @@ export default function UseMemo() {
 
   return (
     <div>
+      <h1>UseMemo Practice...</h1>
       <button onClick={handleChange} style={{ marginTop: "30vh", backgroundColor: "yellow" }}>Counter</button>
       <p>The New Increment Value is : {CheckData}</p>
       <button onClick={() => setshow(!show)} style={{ backgroundColor: "greenyellow" }}>{show ? "Click me Please" : 'You Click me'}</button>
